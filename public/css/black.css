@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/red.png");
+}
+
+
+
+iframe {
+  width: 100%;
+}
+
+.botui-app-container {
+  margin-top: 40px;
+  width: 400px;
+  height: 700px;
+  padding-bottom: 120px;
+
+}
+
+.botui-container {
+  background-image: url("../img/red.png");
+}
+.botui-message-content {
+  color: #FFFFFF;
+  background-color:#8f1325;
+}
+
+.botui-message-content.human {
+  background-color: #3498DB;
+}
+
+.botui-actions-text-input {
+  color: #FFFFFF;
+  border-bottom: 1px solid #3498DB;
+}
+
+.botui-actions-buttons-button {
+  line-height: 1 !important;
+  background-color: #3498DB;
+}
+
+.botui-message-content-link {
+  color: #F1C40F;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.button {
+
+  background:    #ffffff;
+  border:        1px solid #8f1325;
+  border-radius: 5px;
+  box-shadow:    0 1px #bbccee;
+  padding:       20px 20px;
+  color:         #8f1325;
+  display:       inline-block;
+  font:          normal 700 24px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  text-shadow:   none;
+  width:250px
+}
+
+.flex{
+  text-align : center;
+  
+}
+#target {
+  margin-right:30px;
+}
+#target1 {
+  margin-left:30px;
+}
+
+
+
+.p_change
+{
+margin-top: 10px;
+margin-bottom: 50px;
+color: rgb(255, 255, 255);
+font-size: 50px;
+text-align:    center;
+text-shadow: rgb(150, 150, 150) 1px 3px 0px, rgb(171, 168, 168) 1px 13px 5px;
+}
+.text_theme_color{
+  color : #8f1325;
+}
+.border_theme_color{
+  border: solid 1px #8f1325;
+}
+
+.small_button {
+  background-color: #8f1325; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
